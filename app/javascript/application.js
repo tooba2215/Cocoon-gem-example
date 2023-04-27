@@ -6,4 +6,3 @@ import "jquery_ujs"
 import "popper"
 import "bootstrap"
 import "@nathanvda/cocoon"
-

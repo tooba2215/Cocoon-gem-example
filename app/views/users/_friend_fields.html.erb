@@ -1,6 +1,6 @@
+<%= f.label "Friend's name" %>
 <div class="nested-fields">
-  <%= f.label "Friend's name" %>
-  <%= f.text_field :friend_name %>
-
-  <%= link_to_remove_association "Delete", f %>
+  <%= f.text_field :friend_name, class: "form-control" , placeholder: "Friend Name", required: true %>
+  <%= link_to_remove_association "Delete", f, class: 'btn btn-sm btn-danger' %>
 </div>
+<br>

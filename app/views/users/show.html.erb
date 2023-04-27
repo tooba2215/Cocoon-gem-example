@@ -1,5 +1,17 @@
-<h4><%= @user.name %>'s Friends</h4>
-
-<% @friends.each do |friend| %>
-  <li><%= friend.friend_name %></li>
-<% end %>
+<div class="form-body">
+  <div class="row">
+    <div class="form-holder">
+      <div class="form-content">
+        <div class="form-items">
+          <h3><%= @user.name %>'s Friends</h3>
+          <br>
+          <p><% @friends.each do |friend| %>
+            <%= friend.friend_name %>
+              <br>
+          <% end %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
