@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "preBuild": {
+      "command": "3.0.4"
+    }
+  }
+}
